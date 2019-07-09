@@ -1,0 +1,19 @@
+image: toolhippie/asciidoctor:latest
+manifests:
+  -
+    image: toolhippie/asciidoctor:amd64
+    platform:
+      architecture: amd64
+      os: linux
+  -
+    image: toolhippie/asciidoctor:arm64v8
+    platform:
+      architecture: arm64
+      os: linux
+      variant: v8
+  -
+    image: toolhippie/asciidoctor:arm32v6
+    platform:
+      architecture: arm
+      os: linux
+      variant: v6
