@@ -1,6 +1,6 @@
-# Asciidoctor
+# asciidoctor
 
-[![Build Status](https://github.dronehippie.de/api/badges/toolhippie/asciidoctor/status.svg)](https://github.dronehippie.de/toolhippie/asciidoctor)
+[![Build Status](https://cloud.drone.io/api/badges/toolhippie/asciidoctor/status.svg)](https://cloud.drone.io/toolhippie/asciidoctor)
 [![](https://images.microbadger.com/badges/image/toolhippie/asciidoctor:latest.svg)](https://microbadger.com/images/toolhippie/asciidoctor:latest "Get your own image badge on microbadger.com")
 
 TBD
