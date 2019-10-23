@@ -3,7 +3,10 @@
 [![Build Status](https://cloud.drone.io/api/badges/toolhippie/asciidoctor/status.svg)](https://cloud.drone.io/toolhippie/asciidoctor)
 [![](https://images.microbadger.com/badges/image/toolhippie/asciidoctor:latest.svg)](https://microbadger.com/images/toolhippie/asciidoctor:latest "Get your own image badge on microbadger.com")
 
-TBD
+**All these images are used for various scriptings, it's possible that any of these tools are updated randomly**
+
+* [GitHub](https://github.com/toolhippie/asciidoctor)
+* [Upstream](https://github.com/asciidoctor/asciidoctor)
 
 
 ## Versions
