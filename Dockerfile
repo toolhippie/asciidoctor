@@ -1,6 +1,5 @@
 FROM webhippie/ruby:latest
-
-ENTRYPOINT ["/usr/bin/asciidoctor"]
+ENTRYPOINT [""]
 
 # renovate: datasource=rubygems depName=asciidoctor
 ENV ASCIIDOCTOR_VERSION=2.0.16
