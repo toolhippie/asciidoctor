@@ -8,7 +8,7 @@ ENV ASCIIDOCTOR_VERSION=2.0.17
 ENV ASCIIDOCTOR_PDF_VERSION=2.0.0
 
 # renovate: datasource=rubygems depName=asciidoctor-diagram
-ENV ASCIIDOCTOR_DIAGRAM_VERSION=2.2.2
+ENV ASCIIDOCTOR_DIAGRAM_VERSION=2.2.3
 
 # renovate: datasource=rubygems depName=asciidoctor-epub3
 ENV ASCIIDOCTOR_EPUB3_VERSION=1.5.1
