@@ -3,10 +3,12 @@
     "extends": [
         "github>webhippie/renovate:docker"
     ],
-    "packageRules": [{
-        "groupName": "asciidoctor packages",
-        "matchDatasources": [
-            "rubygems"
-        ]
-    }]
+    "packageRules": [
+        {
+            "groupName": "asciidoctor packages",
+            "matchDatasources": [
+                "rubygems"
+            ]
+        }
+    ]
 }
