@@ -2,7 +2,7 @@ FROM webhippie/ruby:latest
 ENTRYPOINT [""]
 
 # renovate: datasource=rubygems depName=asciidoctor
-ENV ASCIIDOCTOR_VERSION=2.0.17
+ENV ASCIIDOCTOR_VERSION=2.0.18
 
 # renovate: datasource=rubygems depName=asciidoctor-pdf
 ENV ASCIIDOCTOR_PDF_VERSION=2.3.2
