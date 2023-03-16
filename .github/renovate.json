@@ -10,5 +10,8 @@
                 "rubygems"
             ]
         }
+    ],
+    "ignoreDeps": [
+        "docker/build-push-action"
     ]
 }
