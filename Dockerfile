@@ -1,4 +1,4 @@
-FROM webhippie/ruby:latest
+FROM ghcr.io/webhippie/ruby:latest
 ENTRYPOINT [""]
 
 # renovate: datasource=rubygems depName=asciidoctor
