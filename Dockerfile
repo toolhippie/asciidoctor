@@ -5,7 +5,7 @@ ENTRYPOINT [""]
 ENV ASCIIDOCTOR_VERSION=2.0.20
 
 # renovate: datasource=rubygems depName=asciidoctor-pdf
-ENV ASCIIDOCTOR_PDF_VERSION=2.3.9
+ENV ASCIIDOCTOR_PDF_VERSION=2.3.10
 
 # renovate: datasource=rubygems depName=asciidoctor-diagram
 ENV ASCIIDOCTOR_DIAGRAM_VERSION=2.2.14
