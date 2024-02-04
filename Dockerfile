@@ -11,7 +11,7 @@ ENV ASCIIDOCTOR_PDF_VERSION=2.3.12
 ENV ASCIIDOCTOR_DIAGRAM_VERSION=2.2.17
 
 # renovate: datasource=rubygems depName=asciidoctor-epub3
-ENV ASCIIDOCTOR_EPUB3_VERSION=2.0.1
+ENV ASCIIDOCTOR_EPUB3_VERSION=2.1.0
 
 # renovate: datasource=rubygems depName=asciidoctor-mathematical
 ENV ASCIIDOCTOR_MATHEMATICAL_VERSION=0.3.5
