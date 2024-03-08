@@ -2,10 +2,10 @@ FROM ghcr.io/dockhippie/ruby:latest
 ENTRYPOINT [""]
 
 # renovate: datasource=rubygems depName=asciidoctor
-ENV ASCIIDOCTOR_VERSION=2.0.21
+ENV ASCIIDOCTOR_VERSION=2.0.22
 
 # renovate: datasource=rubygems depName=asciidoctor-pdf
-ENV ASCIIDOCTOR_PDF_VERSION=2.3.13
+ENV ASCIIDOCTOR_PDF_VERSION=2.3.14
 
 # renovate: datasource=rubygems depName=asciidoctor-diagram
 ENV ASCIIDOCTOR_DIAGRAM_VERSION=2.3.0
