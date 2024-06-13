@@ -21,7 +21,7 @@ ENV ASCIIDOCTOR_REVEALJS_VERSION=5.1.0
 
 RUN apk update && \
   apk upgrade && \
-  apk add py3-pygments py3-seqdiag@testing py3-nwdiag@testing py3-actdiag@testing cmake bison flex-dev mtex2mml-dev lasem-dev && \
+  apk add py3-pygments py3-seqdiag@testing py3-nwdiag@testing cmake bison flex-dev mtex2mml-dev lasem-dev && \
   gem install mathematical:1.6.14 asciidoctor:${ASCIIDOCTOR_VERSION} asciidoctor-pdf:${ASCIIDOCTOR_PDF_VERSION} asciidoctor-diagram:${ASCIIDOCTOR_DIAGRAM_VERSION} asciidoctor-epub3:${ASCIIDOCTOR_EPUB3_VERSION} asciidoctor-mathematical:${ASCIIDOCTOR_MATHEMATICAL_VERSION} asciidoctor-revealjs:${ASCIIDOCTOR_REVEALJS_VERSION} rouge coderay pygments.rb epubcheck kindlegen && \
   apk del cmake bison flex-dev mtex2mml-dev lasem-dev && \
   rm -rf /var/cache/apk/*
