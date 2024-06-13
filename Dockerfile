@@ -2,16 +2,16 @@ FROM ghcr.io/dockhippie/ruby:latest
 ENTRYPOINT [""]
 
 # renovate: datasource=rubygems depName=asciidoctor
-ENV ASCIIDOCTOR_VERSION=2.0.22
+ENV ASCIIDOCTOR_VERSION=2.0.23
 
 # renovate: datasource=rubygems depName=asciidoctor-pdf
-ENV ASCIIDOCTOR_PDF_VERSION=2.3.15
+ENV ASCIIDOCTOR_PDF_VERSION=2.3.17
 
 # renovate: datasource=rubygems depName=asciidoctor-diagram
 ENV ASCIIDOCTOR_DIAGRAM_VERSION=2.3.0
 
 # renovate: datasource=rubygems depName=asciidoctor-epub3
-ENV ASCIIDOCTOR_EPUB3_VERSION=2.1.0
+ENV ASCIIDOCTOR_EPUB3_VERSION=2.1.3
 
 # renovate: datasource=rubygems depName=asciidoctor-mathematical
 ENV ASCIIDOCTOR_MATHEMATICAL_VERSION=0.3.5
