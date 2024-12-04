@@ -17,7 +17,7 @@ ENV ASCIIDOCTOR_EPUB3_VERSION=2.1.3
 ENV ASCIIDOCTOR_MATHEMATICAL_VERSION=0.3.5
 
 # renovate: datasource=rubygems depName=asciidoctor-revealjs
-ENV ASCIIDOCTOR_REVEALJS_VERSION=5.1.0
+ENV ASCIIDOCTOR_REVEALJS_VERSION=5.2.0
 
 RUN apk update && \
   apk upgrade && \
