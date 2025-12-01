@@ -1,4 +1,4 @@
-FROM ghcr.io/dockhippie/ruby:latest@sha256:6a546867dab0ebaabeed9add0245e50fe8a18dc6d0633c97d0decbad4fc92189
+FROM ghcr.io/dockhippie/ruby:latest@sha256:a7c808056cf65cc75bc5d7a01ef597134853b3e6a454716df776a59966026da3
 ENTRYPOINT [""]
 
 # renovate: datasource=rubygems depName=asciidoctor
